@@ -63,7 +63,7 @@
 			[_switch release];
 			_cell.textLabel.font = [UIFont boldSystemFontOfSize:14];
 			_cell.textLabel.textColor = [UIColor colorWithRed:.8 green:.8 blue:.8 alpha:1];
-			_cell.contentView.backgroundColor = [UIColor grayColor];
+			_cell.contentView.backgroundColor = [UIColor clearColor];
 			_cell.backgroundColor = [UIColor grayColor];
 			
 			if(_indexPath.row == 0) {
@@ -79,7 +79,7 @@
 		else {
 			_cell.textLabel.font = [UIFont boldSystemFontOfSize:14];
 			_cell.textLabel.textColor = [UIColor colorWithRed:.8 green:.8 blue:.8 alpha:1];
-			_cell.contentView.backgroundColor = [UIColor grayColor];
+			_cell.contentView.backgroundColor = [UIColor clearColor];
 			_cell.textLabel.text = @"Goal:\t\t\t100";
 			_cell.backgroundColor = [UIColor grayColor];
 		}
@@ -95,7 +95,7 @@
 			_cell.textLabel.font = [UIFont boldSystemFontOfSize:14];
 			_cell.textLabel.textColor = [UIColor colorWithRed:.8 green:.8 blue:.8 alpha:1];
 			_cell.textLabel.text = @"Tweet data points:";
-			_cell.contentView.backgroundColor = [UIColor grayColor];
+			_cell.contentView.backgroundColor = [UIColor clearColor];
 			_cell.backgroundColor = [UIColor grayColor];
 		}
 		
@@ -104,7 +104,7 @@
 			_cell.textLabel.font = [UIFont boldSystemFontOfSize:14];
 			_cell.textLabel.textColor = [UIColor colorWithRed:.8 green:.8 blue:.8 alpha:1];
 			_cell.textLabel.text = @"Tweet String:";
-			_cell.contentView.backgroundColor = [UIColor grayColor];
+			_cell.contentView.backgroundColor = [UIColor clearColor];
 			_cell.backgroundColor = [UIColor grayColor];
 		}
 	}
